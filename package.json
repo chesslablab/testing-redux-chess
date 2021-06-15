@@ -41,9 +41,6 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "redux-chess": "file:../redux-chess"
-  },
   "localDependencies": {
     "redux-chess": "../redux-chess"
   }
