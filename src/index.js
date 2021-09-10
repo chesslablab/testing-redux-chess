@@ -4,7 +4,7 @@ import { Chess } from 'redux-chess';
 
 const props = {
   server: {
-    port: 'ws',
+    prot: 'ws',
     host: '127.0.0.1',
     port: '8080'
   }
