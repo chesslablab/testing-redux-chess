@@ -4,6 +4,42 @@ This is a testing environment for [Redux Chess](https://github.com/chesslab/redu
 
 Check out this [demo](https://programarivm.github.io/demo-redux-chess).
 
+# Local Setup
+
+First thinkgs first, make sure to clone the `@chesslab/redux-chess` package into your projects folder as it is described next:
+
+    $ git clone git@github.com:chesslab/redux-chess.git @chesslab/redux-chess
+
+> Notice that this npm package starts with @ because this is how an organization is denoted.
+
+Don't forget to install the npm dependencies in the `@chesslab/redux-chess` directory:
+
+    $ npm install
+
+Then, clone the `chesslab/testing-redux-chess` repository into your projects folder too:
+
+    $ git clone git@github.com:chesslab/testing-redux-chess.git
+
+Install the `chesslab/redux-chess` package locally in your `testing-redux-chess` directory:
+
+    $ install-local --save ../@chesslab/redux-chess
+
+And install the npm dependencies required for the testing app to run:
+
+    $ npm install
+
+# Start the Testing App
+
+To start the app for the first time
+
+    $ npm start
+
+# Restart the Testing App
+
+To restart the app if you make any changes in the local `chesslab/redux-chess` repo:
+
+    $ npm run publish:npm --prefix /home/standard/projects/@chesslab/redux-chess && npm run update:local:redux-chess && npm run restart --port=3000
+
 ---
 
 For further information on developing this awesome npm package, please visit:
