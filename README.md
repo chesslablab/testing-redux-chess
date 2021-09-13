@@ -1,6 +1,6 @@
-# Redux Chess Testing Environment
+# Redux Chess Testing Application
 
-This is a testing environment for [Redux Chess](https://github.com/chesslab/redux-chess).
+This repository allows to test the [`@chesslab/redux-chess`](https://github.com/chesslab/redux-chess) package from within a host application outside of the package itself.
 
 Check out this [demo](https://programarivm.github.io/demo-redux-chess).
 
