@@ -42,6 +42,7 @@
     ]
   },
   "localDependencies": {
-    "redux-chess": "../redux-chess"
+    "redux-chess": "../redux-chess",
+    "@chesslab/redux-chess": "../redux-chess"
   }
 }

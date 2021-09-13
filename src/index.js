@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Chess } from 'redux-chess';
+import { Chess } from '@chesslab/redux-chess';
 
 const props = {
   server: {
