@@ -1,6 +1,6 @@
 ## Welcome to Chesslab
 
-♜♞♝♛♚♟ Thank you for your interest in this awesome community ♖♘♗♕♔♙
+Thank you for your interest in this awesome open-source community.
 
 For further information, please visit:
 
