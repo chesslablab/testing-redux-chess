@@ -1,6 +1,8 @@
 ## Welcome to Chesslab
 
-Thank you for your interest in this awesome open-source community.
+Thank you for your interest in this awesome open-source community to learn about web development and chess.
+
+Let's build something awesome!
 
 For further information, please visit:
 
