@@ -1,28 +1,28 @@
 # Redux Chess Testing Application
 
-This repository allows to test the [`@chesslab/redux-chess`](https://github.com/chesslab/redux-chess) package from within a host application outside of the package itself.
+This repository allows to test the [`@chesslablab/redux-chess`](https://github.com/chesslablab/redux-chess) package from within a host application outside of the package itself.
 
 Check out this [demo](https://programarivm.github.io/demo-redux-chess).
 
 # Local Setup
 
-First thinkgs first, make sure to clone the `@chesslab/redux-chess` package into your projects folder as it is described next:
+First thinkgs first, make sure to clone the `@chesslablab/redux-chess` package into your projects folder as it is described next:
 
-    $ git clone git@github.com:chesslab/redux-chess.git @chesslab/redux-chess
+    $ git clone git@github.com:chesslablab/redux-chess.git @chesslablab/redux-chess
 
 > Notice that this package starts with @ because this is how an organization is denoted in the npm registry.
 
-Don't forget to install the npm dependencies in the `@chesslab/redux-chess` directory:
+Don't forget to install the npm dependencies in the `@chesslablab/redux-chess` directory:
 
     $ npm install
 
-Then, clone the `chesslab/testing-redux-chess` repository into your projects folder too:
+Then, clone the `chesslablab/testing-redux-chess` repository into your projects folder too:
 
-    $ git clone git@github.com:chesslab/testing-redux-chess.git
+    $ git clone git@github.com:chesslablab/testing-redux-chess.git
 
-Install the `@chesslab/redux-chess` package locally in your `testing-redux-chess` directory:
+Install the `@chesslablab/redux-chess` package locally in your `testing-redux-chess` directory:
 
-    $ install-local --save ../@chesslab/redux-chess
+    $ install-local --save ../@chesslablab/redux-chess
 
 And or course also install the npm dependencies required for the testing app to run:
 
@@ -32,13 +32,13 @@ And or course also install the npm dependencies required for the testing app to 
 
 Make sure to `cd` your `testing-redux-chess` folder in order to start the app for the first time:
 
-    $ npm run publish:npm --prefix /home/standard/projects/@chesslab/redux-chess && npm run update:local:redux-chess && npm start
+    $ npm run publish:npm --prefix /home/standard/projects/@chesslablab/redux-chess && npm run update:local:redux-chess && npm start
 
 # Restart the Testing App
 
-If you make any changes in the local `@chesslab/redux-chess` package you may want to restart the app to see the changes in your browser:
+If you make any changes in the local `@chesslablab/redux-chess` package you may want to restart the app to see the changes in your browser:
 
-    $ npm run publish:npm --prefix /home/standard/projects/@chesslab/redux-chess && npm run update:local:redux-chess && npm run restart --port=3000
+    $ npm run publish:npm --prefix /home/standard/projects/@chesslablab/redux-chess && npm run update:local:redux-chess && npm run restart --port=3000
 
 ---
 
