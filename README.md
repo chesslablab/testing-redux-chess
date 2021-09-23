@@ -6,7 +6,7 @@ Check out this [demo](https://programarivm.github.io/demo-redux-chess).
 
 ## Local Setup
 
-First thinkgs first, make sure to clone the `@chesslablab/redux-chess` package into your `projects` folder as it is described next:
+First thinkgs first, fork and clone the `@chesslablab/redux-chess` package into your `projects` folder as it is described in the following example:
 
     $ git clone git@github.com:chesslablab/redux-chess.git @chesslablab/redux-chess
 
@@ -24,7 +24,9 @@ Install the `@chesslablab/redux-chess` package locally in your `testing-redux-ch
 
     $ install-local --save ../@chesslablab/redux-chess
 
-And or course also install the npm dependencies required for the testing app to run:
+As you can see, it is required to install the [`install-local`](https://www.npmjs.com/package/install-local) package; for further information please visit [How to Test a Local React NPM Package With Ease](https://javascript.plainenglish.io/testing-a-local-react-npm-package-with-ease-7d0668676ddb).
+
+And or course, finally install the npm dependencies required for the testing app to run:
 
     $ npm install
 
