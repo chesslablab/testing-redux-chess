@@ -4,9 +4,9 @@ This repository allows to test the [`@chesslablab/redux-chess`](https://github.c
 
 Check out this [demo](https://programarivm.github.io/demo-redux-chess).
 
-## Local Setup
+## Local Installation and Setup
 
-First thinkgs first, fork and clone the `@chesslablab/redux-chess` package into your `projects` folder as it is described in the following example:
+First things first, fork and clone the `@chesslablab/redux-chess` package into your `projects` folder as it is described in the following example:
 
     $ git clone git@github.com:chesslablab/redux-chess.git @chesslablab/redux-chess
 
@@ -26,9 +26,14 @@ Install the `@chesslablab/redux-chess` package locally in your `testing-redux-ch
 
 As you can see, it is required to install the [`install-local`](https://www.npmjs.com/package/install-local) package; for further information please visit [How to Test a Local React NPM Package With Ease](https://javascript.plainenglish.io/testing-a-local-react-npm-package-with-ease-7d0668676ddb).
 
-And or course, finally install the npm dependencies required for the testing app to run:
+And or course, install the npm dependencies required for the testing app to run:
 
     $ npm install
+
+Finally you may want to install [Redux DevTools Extension](https://github.com/zalmoxisus/redux-devtools-extension) in your browser in order to develop and debug the `@chesslablab/redux-chess` package.
+
+![Figure 1](/src/assets/img/docs/figure-01.gif)
+Figure 1. Debugging the `@chesslablab/redux-chess` package with Redux DevTools.
 
 ## Run the Chess Server
 
