@@ -88,13 +88,13 @@ You may want to install [Redux DevTools Extension](https://github.com/zalmoxisus
 ![Figure 1](/src/assets/img/docs/figure-01.gif)
 Figure 1. Debugging the `@chesslablab/redux-chess` package with Redux DevTools.
 
-## Start the React App
+## Start the Testing App
 
 `cd` your `testing-redux-chess` folder in order to start the app for the first time:
 
     $ npm run publish:npm --prefix /home/standard/projects/@chesslablab/redux-chess && npm run update:local:redux-chess && npm start
 
-## Restart the React App
+## Restart the Testing App
 
 After making some changes in the local `@chesslablab/redux-chess` package you may want to restart the app to see the changes in your browser:
 
