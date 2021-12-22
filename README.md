@@ -94,8 +94,8 @@ Figure 1. Debugging the `@chesslablab/redux-chess` package with Redux DevTools.
 
     $ npm run publish:npm --prefix /home/standard/projects/@chesslablab/redux-chess && npm run update:local:redux-chess && npm start
 
-## Restart the Testing App
+## Refresh the Testing App
 
-After making some changes in the local `@chesslablab/redux-chess` package you may want to restart the app to see the changes in your browser:
+After doing some work on the `@chesslablab/redux-chess` package you may want to refresh the testing app to see the changes in your browser:
 
     $ npm run publish:npm --prefix /home/standard/projects/@chesslablab/redux-chess && npm run update:local:redux-chess && npm run restart --port=3000
