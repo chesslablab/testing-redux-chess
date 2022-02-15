@@ -77,7 +77,7 @@ Then, clone the `chesslablab/testing-redux-chess` repository into your `projects
 
 Install the `@chesslablab/redux-chess` package locally in your `testing-redux-chess` directory:
 
-    $ install-local --save ../@chesslablab/redux-chess
+    $ install-local ../@chesslablab/redux-chess
 
 And once again, don't forget to install the npm packages in your `testing-redux-chess` directory:
 
@@ -92,10 +92,4 @@ Figure 1. Debugging the `@chesslablab/redux-chess` package with Redux DevTools.
 
 `cd` your `testing-redux-chess` folder in order to start the app for the first time:
 
-    $ npm run publish:npm --prefix /home/standard/projects/@chesslablab/redux-chess && npm run update:local:redux-chess && npm start
-
-## Refresh the Testing App
-
-After doing some work on the `@chesslablab/redux-chess` package you may want to refresh the testing app to see the changes in your browser:
-
-    $ npm run publish:npm --prefix /home/standard/projects/@chesslablab/redux-chess && npm run update:local:redux-chess && npm run restart --port=3000
+    $ npm run publish:npm --prefix /home/standard/projects/@chesslablab/redux-chess && npm start
