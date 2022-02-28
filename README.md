@@ -44,6 +44,11 @@ import ReactDOM from 'react-dom';
 import { Chess } from '@chesslablab/redux-chess';
 
 const props = {
+  api: {
+    prot: 'https',
+    host: 'pchess.net',
+    port: '443'
+  },
   server: {
     prot: 'wss',
     host: 'pchess.net',
