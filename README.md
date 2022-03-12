@@ -116,6 +116,7 @@ $ sudo rm -rf node_modules
 $ sudo rm package-lock.json
 $ install-local ../@chesslablab/redux-chess
 $ npm install
+$ npm start
 ```
 
 This will take about one minute making the development process tedious. After updating `react-scripts` to version `5.0.0`, it seems as if there may be an issue with the cache. However, with version `4.0.3` the changes could be reloaded in few seconds as described in this bug:
