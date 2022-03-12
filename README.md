@@ -98,3 +98,28 @@ Figure 1. Debugging the `@chesslablab/redux-chess` package with Redux DevTools.
 `cd` your `testing-redux-chess` folder in order to start the app for the first time:
 
     $ npm run publish:npm --prefix /home/standard/projects/@chesslablab/redux-chess && npm start
+
+## Restart the Testing App
+
+After making some changes to the source code, please follow these steps to see them on your web browser:
+
+In the `@chesslablab/redux-chess` directory:
+
+```
+$ npm run publish:npm
+```
+
+Then, in the `testing-redux-chess` directory:
+
+```
+$ sudo rm -rf node_modules
+$ sudo rm package-lock.json
+$ install-local ../@chesslablab/redux-chess
+$ npm install
+```
+
+This will take about one minute making the development process tedious. After updating `react-scripts` to version `5.0.0`, it seems as if there may be an issue with the cache. However, with version `4.0.3` the changes could be reloaded in few seconds as described in this bug:
+
+- https://github.com/chesslablab/redux-chess/issues/278
+
+Keep it up, and happy learning and coding!
