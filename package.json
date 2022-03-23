@@ -21,7 +21,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "stop": "kill -9 $(lsof -t -i:$npm_config_port)",
-    "restart": "kill -9 $(lsof -t -i:$npm_config_port) && react-scripts start"
+    "restart": "kill -9 $(lsof -t -i:$npm_config_port) && react-scripts start",
+    "update:local:redux-chess": "rm -rf ./node_modules/@chesslablab/redux-chess/dist && cp -r ../@chesslablab/redux-chess/dist ./node_modules/@chesslablab/redux-chess"
   },
   "eslintConfig": {
     "extends": [

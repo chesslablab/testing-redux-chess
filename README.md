@@ -124,3 +124,47 @@ This will take about one minute making the development process tedious. After up
 - https://github.com/chesslablab/redux-chess/issues/278
 
 Keep it up, and happy learning and coding!
+
+## Start the Testing App
+
+`cd` your `testing-redux-chess` folder in order to start the app for the first time:
+
+```
+$ npm run publish:npm --prefix /home/standard/projects/@chesslablab/redux-chess
+$ npm run update:local:redux-chess
+$ npm start
+```
+
+The commands above can be chained together as described next:
+
+```
+$ npm run publish:npm --prefix /home/standard/projects/@chesslablab/redux-chess && npm run update:local:redux-chess && npm start
+```
+
+## Refresh the Testing App
+
+After making some changes to the source code, please follow these steps to see them on your web browser.
+
+First things first, make sure to remove the cache.
+
+```
+$ rm -rf node_modules/.cache/
+```
+
+See:
+
+- https://github.com/facebook/create-react-app/issues/10301
+
+Then refresh the app:
+
+```
+$ npm run publish:npm --prefix /home/standard/projects/@chesslablab/redux-chess
+$ npm run update:local:redux-chess
+$ npm run restart --port=3000
+```
+
+The commands above can be chained together as described next:
+
+```
+$ npm run publish:npm --prefix /home/standard/projects/@chesslablab/redux-chess && npm run update:local:redux-chess && npm run restart --port=3000
+```
