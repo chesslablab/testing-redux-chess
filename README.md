@@ -10,28 +10,25 @@ The Redux Chess Testing Application requires a [PHP Chess Server](https://github
 $ php cli/ws-server.php
 Welcome to PHP Chess Server
 Commands available:
-/accept {"id":"id"} Accepts a friend request to play a game.
-/ascii Prints the ASCII representation of the game.
-/castling Gets the castling status.
-/captures Gets the pieces captured by both players.
+/accept {"jwt":"<string>"} Accepts a request to play a game.
 /draw {"action":["accept","decline","propose"]} Allows to offer a draw.
-/events Gets the events taking place on the game.
-/fen Prints the FEN string representation of the game.
-/heuristicpicture Takes a balanced heuristic picture of the current game.
-/history The current game's history.
-/ischeck Finds out if the game is in check.
-/ismate Finds out if the game is over.
-/piece {"position":"string"} Gets a piece by its position on the board.
-/pieces {"color":["w","b"]} Gets the pieces on the board by color.
-/playfen {"fen":"string"} Plays a chess move in shortened FEN format.
+/heuristics Takes a balanced heuristic picture of the current game.
+/heuristics_bar {"fen":"<string>"} Takes an expanded heuristic picture of the current position.
+/leave {"action":["accept"]} Allows to leave a game.
+/legal_sqs {"position":"<string>"} Returns the legal squares of a piece.
+/online_games Returns the online games waiting to be accepted.
+/play_fen {"fen":"<string>"} Plays a chess move in shortened FEN format.
 /quit Quits a game.
+/random_checkmate {"turn":"<string>","items":"<string>"} Starts a random checkmate position.
+/random_game Starts a random game.
 /rematch {"action":["accept","decline","propose"]} Allows to offer a rematch.
 /resign {"action":["accept"]} Allows to resign a game.
-/restart {"hash":"string"} Restarts a game.
-/start {"mode":["analysis","loadfen","loadpgn","playfriend"],"fen":"string","movetext":"string","color":["w","b"],"min":"int","increment":"int"} Starts a new game.
-/status The current game status.
+/gm Returns a computer generated response to the current position.
+/restart {"hash":"<string>"} Restarts a game.
+/start {"mode":["analysis","gm","fen","pgn","play","stockfish"],"fen":"<string>","movetext":"<string>","color":["w","b"],"settings":"<string>"} Starts a new game.
+/stockfish {"options":{"Skill Level":"int"},"params":{"depth":"int"}} Returns Stockfish's response to the current position.
 /takeback {"action":["accept","decline","propose"]} Allows to manage a takeback.
-/undomove Undoes the last move.
+/undo Undoes the last move.
 
 Listening to commands...
 ```
